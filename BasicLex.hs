@@ -76,7 +76,7 @@ data Token
   = SyntaxToken !Char
   -- |A sequence of characters used as an identifier
   | IdentifierToken !Identifier
-  deriving (Eq, Ord, Show)
+  deriving (Eq, Show)
 
 
 data LexicalCharacterClass
