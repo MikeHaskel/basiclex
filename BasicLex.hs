@@ -12,7 +12,7 @@
 -- See the License for the specific language governing permissions and
 -- limitations under the License.
 
--- |Basic, generic, somewhat inflexible lexer intended for user with new
+-- |Basic, generic, somewhat inflexible lexer intended for use with new
 -- languages.
 -- 
 -- The main feature of the lexer is that it is fully Unicode-based.  Based on
