@@ -57,7 +57,7 @@ import qualified Data.Text.ICU.Char as I
 newtype Identifier = Identifier { getIdentifier :: T.Text }
 
 instance Eq Identifier where
-  Identifier x == Identifier y = compare x y == EQ
+  x == y = compare x y == EQ
 
 instance Ord Identifier where
   compare (Identifier x) (Identifier y) = I.compare [] x y
